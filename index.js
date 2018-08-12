@@ -1,4 +1,4 @@
 // Write your solution in this file!
-const updateDriverWithKeyAndValue=(v,k)=>Object.assign(drivers,{[v]: k});
-const destructivelyUpdateDriverWithKeyAndValue=(v,k)=>drivers[v]=k;
-const 
+const updateDriverWithKeyAndValue=(driver,v,k)=>Object.assign(drivers,{[v]: k});
+const destructivelyUpdateDriverWithKeyAndValue=(driver,v,k)=>drivers[v]=k;
+const deleteFromDriverByKey=(driver,v,k)=>drivers[v]=k;
